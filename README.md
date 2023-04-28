@@ -34,23 +34,29 @@ To get started with this project, follow these steps:
 
 2. Copy you Discord User ID to a `.env` file
 
-3. Use the API like the next example:
+3. Go to your project and run:
 
-```js
-  import { fetchDiscordStatus } from "discord-lanyard-awesome";
+   ```
+   npm install discord-lanyard-awesome
+   ```
 
-  fetchDiscordStatus(process.env.DISCORD_USER_ID).then((response) => {
-    console.log(response);
-  });
+4. Use the API like the next example:
+
+   ```js
+     import { fetchDiscordStatus } from "discord-lanyard-awesome";
+
+     fetchDiscordStatus(process.env.DISCORD_USER_ID).then((response) => {
+       console.log(response);
+     });
 
 
-  Result
-  {
-    status: 'online',
-    avatar: 'https://cdn.discordapp.com/avatars/869736569051967578/89ba9c1383e3da8df7f387d9fa989f2f.webp?size=256',
-    username: 'morellexf13',
-    discriminator: '0716',
-    activities: [] // Playing game or Spotify
-}
+     Result
+     {
+       status: 'online',
+       avatar: 'https://cdn.discordapp.com/avatars/869736569051967578/89ba9c1383e3da8df7f387d9fa989f2f.webp?size=256',
+       username: 'morellexf13',
+       discriminator: '0716',
+       activities: [] // Playing game or Spotify
+   }
 
-```
+   ```
