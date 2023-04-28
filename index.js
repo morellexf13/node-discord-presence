@@ -1,8 +1,8 @@
-export const getData = (userId) => {
+const getData = (userId) => {
   return fetch(`https://api.lanyard.rest/v1/users/${userId}`).then((response) => response.json());
 };
 
-export const fetchDiscordStatus = (userId) => {
+const fetchDiscordStatus = (userId) => {
   return new Promise((resolve) => {
     getData(userId).then((response) => {
       response = response["data"];
@@ -24,3 +24,5 @@ export const fetchDiscordStatus = (userId) => {
     });
   });
 };
+
+module.exports = fetchDiscordStatus;

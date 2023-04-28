@@ -9,9 +9,8 @@
     "url": "git+https://github.com/morellexf13/discord-lanyard-awesome.git"
   },
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "install": "npm install discord-lanyard-awesome"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "discord",
