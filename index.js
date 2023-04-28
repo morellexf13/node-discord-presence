@@ -25,4 +25,4 @@ const fetchDiscordStatus = (userId) => {
   });
 };
 
-module.exports = fetchDiscordStatus;
+module.exports = { fetchDiscordStatus };
