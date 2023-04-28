@@ -1,0 +1,22 @@
+{
+  "name": "discord-lanyard-awesome",
+  "version": "1.0.0",
+  "description": "Awesome & simple discord presence functions",
+  "author": "morellexf13",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morellexf13/discord-lanyard-awesome.git"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "install": "npm install discord-lanyard-awesome"
+  },
+  "keywords": [
+    "discord",
+    "node",
+    "api",
+    "lanyard"
+  ]
+}
