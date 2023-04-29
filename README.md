@@ -64,3 +64,8 @@ To get started with this project, follow these steps:
    }
 
    ```
+<br/>
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
