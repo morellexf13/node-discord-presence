@@ -53,10 +53,14 @@ To get started with this project, follow these steps:
      Result
      {
        status: 'online',
-       avatar: 'https://cdn.discordapp.com/avatars/869736569051967578/89ba9c1383e3da8df7f387d9fa989f2f.webp?size=256',
+       avatar: 'some avatar url',
        username: 'morellexf13',
        discriminator: '0716',
-       activities: [] // Playing game or Spotify
+       activities: [{
+        'avatar': 'some avatar url',
+        'details': 'Editing index.js',
+        'name': 'Visual Studio Code'
+       }] // Apps, Games & Spotify
    }
 
    ```
