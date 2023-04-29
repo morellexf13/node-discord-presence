@@ -19,9 +19,21 @@ const fetchDiscordStatus = (userId) => {
           const activities = data.activities;
           activities.map((activity) => {
             if (activity.name === "Spotify" && data.listening_to_spotify) {
-              activity.name = data.spotify.song;
-              activity.description = data.spotify.artist;
               activity.avatar = data.spotify.album_art_url;
+            } else {
+              const hasAsset = activity.assets && activity.assets.large_image ? true : false;
+              const avatar = hasAsset
+                ? {
+                    alt: activity.details,
+                    url: `https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets.large_image}.webp`
+                  }
+                : {
+                    alt: activity.name,
+                    icon: true,
+                    url: ""
+                  };
+
+              activity.avatar = avatar.url;
             }
           });
           resolve({
