@@ -12,8 +12,9 @@
     <br />
    Awesome & simple Discord presence</em>
     <br />
-    <br /
+    <br />
 
+[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/discord-lanyard-awesome/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/actions/workflows/build.yml)
 [![Version](https://img.shields.io/github/v/tag/morellexf13/discord-lanyard-awesome?label=%20&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/releases)
 [![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/blob/main/LICENSE)
 [![Package Monthly Downloads](https://img.shields.io/npm/dm/discord-lanyard-awesome?label=%20&style=for-the-badge)](https://www.npmjs.com/package/discord-lanyard-awesome)
