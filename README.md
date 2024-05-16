@@ -10,7 +10,7 @@
   </h1>
   <sup>
     <br />
-   Simple Discord presence</em>
+   Handle Discord presence in your site with ease</em>
     <br />
     <br />
 

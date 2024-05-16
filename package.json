@@ -1,7 +1,7 @@
 {
   "name": "node-discord-presence",
   "version": "1.0.5",
-  "description": "Awesome & simple discord presence functions",
+  "description": "Handle Discord presence in your site with ease",
   "author": "morellexf13",
   "license": "MIT",
   "repository": {
