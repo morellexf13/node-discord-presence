@@ -1,12 +1,12 @@
 {
-  "name": "discord-lanyard-awesome",
-  "version": "1.0.4",
+  "name": "node-discord-presence",
+  "version": "1.0.5",
   "description": "Awesome & simple discord presence functions",
   "author": "morellexf13",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/morellexf13/discord-lanyard-awesome.git"
+    "url": "git+https://github.com/morellexf13/node-discord-presence.git"
   },
   "main": "index.js",
   "scripts": {

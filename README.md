@@ -4,20 +4,20 @@
     🦀
     <br />
     <br />
-    Discord Lanyard Awesome
+    Node Discord Presence
     <br />
     <br />
   </h1>
   <sup>
     <br />
-   Awesome & simple Discord presence</em>
+   Simple Discord presence</em>
     <br />
     <br />
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/discord-lanyard-awesome/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/actions/workflows/build.yml)
-[![Version](https://img.shields.io/github/v/tag/morellexf13/discord-lanyard-awesome?label=%20&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/discord-lanyard-awesome/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/discord-lanyard-awesome?label=%20&style=for-the-badge)](https://www.npmjs.com/package/discord-lanyard-awesome)
+[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/node-discord-presence/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/node-discord-presence/actions/workflows/build.yml)
+[![Version](https://img.shields.io/github/v/tag/morellexf13/node-discord-presence?label=%20&style=for-the-badge)](https://github.com/morellexf13/node-discord-presence/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/node-discord-presence/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/node-discord-presence?label=%20&style=for-the-badge)](https://www.npmjs.com/package/node-discord-presence)
 [![Lanyard](https://img.shields.io/badge/-Lanyard%20Docs-blue.svg?style=for-the-badge)](https://github.com/Phineas/lanyard)
 
   </sup>
@@ -38,13 +38,13 @@ To get started with this project, follow these steps:
 3. Go to your project and run:
 
    ```
-   npm install discord-lanyard-awesome
+   npm install node-discord-presence
    ```
 
 4. Use the API like the next example:
 
    ```js
-     import { fetchDiscordStatus } from "discord-lanyard-awesome";
+     import { fetchDiscordStatus } from "node-discord-presence";
 
      fetchDiscordStatus(process.env.DISCORD_USER_ID).then((response) => {
        console.log(response);
